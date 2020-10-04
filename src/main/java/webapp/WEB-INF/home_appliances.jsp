@@ -4,6 +4,6 @@
     <Title>Home Appliances</Title>
 </head>
 <body>
-<p>Home Appliances page</p>
+<p>Раздел бытовой техники</p>
 </body>
 </html>

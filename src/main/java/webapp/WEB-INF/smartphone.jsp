@@ -4,6 +4,6 @@
     <Title>Smartphones</Title>
 </head>
 <body>
-<p>Smartphones page</p>
+<p>Раздел смартфоны</p>
 </body>
 </html>

@@ -4,6 +4,6 @@
     <Title>Personal Computers</Title>
 </head>
 <body>
-<p>Personal Computers page</p>
+<p>Раздел компьютеры и ноутбуки</p>
 </body>
 </html>
