@@ -21,11 +21,16 @@ public class Application implements WebApplicationInitializer {
 //    При клике на ссылку "смартфоны" должна открываться страница с текстом "Раздел смартфоны".
 
     public void onStartup(ServletContext servletContext) throws ServletException{
+        // создаём конфигурацию
         AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
+        // регистрируем конфигурацию, созданную выше
         context.register(WebConfig.class);
 
+        // создаём Dispatcher Servlet
         ServletRegistration.Dynamic dispatcher = servletContext.addServlet("dispatcher", new DispatcherServlet(context));
+        // настраиваем маппинг (связывание)
         dispatcher.addMapping("/");
+        // указываем, что при загрузке сервлет запустится первым
         dispatcher.setLoadOnStartup(1);
 
     }

@@ -27,10 +27,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41241154-a81b-494e-ba23-d0e17da2f630" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="41241154-a81b-494e-ba23-d0e17da2f630" name="Default Changelist" comment="Add &quot;@EnableWevMvc&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/HA_controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/HA_controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Index_controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Index_controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/PC_controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/PC_controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Smartphones_controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Smartphones_controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HomeWorkStringMvc-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/HomeWorkStringMvc-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HomeWorkStringMvc-1.0-SNAPSHOT/WEB-INF/classes/app/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HomeWorkStringMvc-1.0-SNAPSHOT/WEB-INF/classes/app/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/HomeWorkStringMvc-1.0-SNAPSHOT/WEB-INF/classes/app/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/HomeWorkStringMvc-1.0-SNAPSHOT/WEB-INF/classes/app/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/WebConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,8 +266,16 @@
       <workItem from="1601764126606" duration="199000" />
       <workItem from="1601764405105" duration="9238000" />
       <workItem from="1602373529488" duration="252000" />
-      <workItem from="1602375929497" duration="1559000" />
+      <workItem from="1602375929497" duration="9008000" />
     </task>
+    <task id="LOCAL-00001" summary="Add &quot;@EnableWevMvc&quot;">
+      <created>1602383215567</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602383215567</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +292,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add &quot;@EnableWevMvc&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add &quot;@EnableWevMvc&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="326" y="0" key="#Project_Structure" timestamp="1602382691068">
@@ -356,6 +378,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" width="1173" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601854862543" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602383221789">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602383221789" />
+    <state x="391" y="0" width="991" height="682" key="dock-window-1" timestamp="1602397873306">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="0" width="991" height="682" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1602397873306" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1602382907910">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -364,5 +394,8 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601769261811" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HWSpringMVC$Tomcat_7_0_106.ic" NAME="Tomcat 7.0.106 Coverage Results" MODIFIED="1602396525681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

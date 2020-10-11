@@ -8,6 +8,8 @@
     <artifactId>HomeWorkStringMvc</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+<!--    веб-приложение будет собрано в виде war-архива-->
+<!--    это необходимо, чтобы передать его Tomcat, где оно будет развёрнуто-->
     <packaging>war</packaging>
 
     <properties>
